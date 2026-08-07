@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/Varsha/Desktop/churn-prediction-mlops/mlruns/1/models/m-c78ff07d94c8456a87f0609877604ee9/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.14.6
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.4.0
+mlflow_version: 3.15.1
+model_id: m-c78ff07d94c8456a87f0609877604ee9
+model_size_bytes: 283263
+model_uuid: m-c78ff07d94c8456a87f0609877604ee9
+prompts: null
+run_id: 376207779e0a4eb9b2d4bf385b044229
+utc_time_created: '2026-08-06 14:54:30.094800'

@@ -1,0 +1,6 @@
+﻿data/tickets_english.csv
+notebooks/
+mlruns/
+__pycache__/
+*.pyc
+.git/
