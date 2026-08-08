@@ -20,3 +20,9 @@ The API is containerized with Docker for portable deployment. See the Dockerfile
 ## Tech Stack
 
 Python, Scikit-learn, XGBoost, MLflow, Optuna, SHAP, FastAPI, Docker, Pandas
+
+## Sample Predictions
+
+Model tested on 3 synthetic customer profiles:
+
+![Sample Predictions](notebooks/plots_sample_customer_predictions.png)
