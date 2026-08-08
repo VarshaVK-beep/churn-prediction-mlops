@@ -26,3 +26,13 @@ Python, Scikit-learn, XGBoost, MLflow, Optuna, SHAP, FastAPI, Docker, Pandas
 Model tested on 3 synthetic customer profiles:
 
 ![Sample Predictions](notebooks/plots_sample_customer_predictions.png)
+
+## Model Evaluation
+
+![Confusion Matrix](notebooks/plots_confusion_matrix.png)
+![ROC Curve](notebooks/plots_roc_curve.png)
+
+## Feature Importance & Explainability
+
+![Feature Importance](notebooks/plots_feature_importance.png)
+![SHAP Summary](notebooks/plots_shap_summary.png)
